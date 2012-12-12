@@ -31,5 +31,7 @@ If you encounter any problems or have questions, don’t hesitate to use our mai
 
 If you find bugs or would like to propose a new feature, you can open an issue in our bug tracker, which can be found at:
 
-[https://github.com/crawljax/crawljax/issues](https://github.com/crawljax/crawljax/issues) -->
+[https://github.com/crawljax/crawljax/issues](https://github.com/crawljax/crawljax/issues) 
+
+-->
 
