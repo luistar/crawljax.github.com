@@ -25,11 +25,11 @@ Later in 2008, the event-based crawling technique was [published at ICWE’08](h
 
 If you encounter any problems or have questions, don’t hesitate to use our mailing list, which can be found at:
 
-[http://groups.google.com/group/crawljax]()
+[http://groups.google.com/group/crawljax](http://groups.google.com/group/crawljax)
 
 ## Bug Tracker
 
 If you find bugs or would like to propose a new feature, you can open an issue in our bug tracker, which can be found at:
 
-[https://github.com/amesbah/crawljax/issues]()
+[https://github.com/crawljax/crawljax/issues](https://github.com/crawljax/crawljax/issues)
 
