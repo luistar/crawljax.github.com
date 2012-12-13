@@ -7,7 +7,7 @@ footer: false
 ---
 
 #### Version 2.1:
-* [Binaries](downloads/crawljax-2.1.zip) *([sha checksum](downloads/crawljax-2.1.zip.sha))*
+* [Binaries](/downloads/crawljax-2.1.zip) *([sha checksum](downloads/crawljax-2.1.zip.sha))*
 * [Sources](https://github.com/crawljax/crawljax/archive/crawljax-2.1.zip)
 * [Changelog](https://github.com/crawljax/crawljax/blob/master/CHANGELOG.md)
 
