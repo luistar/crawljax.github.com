@@ -12,4 +12,7 @@ To deploy to github use
 
 To create content, read [the blogging basics guide](http://octopress.org/docs/blogging/).
 
-	
+## First Clone
+If you clone the source on a new machine, make sure to first run:
+
+	rake setup_github_pages
