@@ -6,10 +6,12 @@ sharing: false
 footer: false
 ---
 
+#### Version 2.1:
+* [Binaries](downloads/crawljax-2.1.zip) *([sha checksum](downloads/crawljax-2.1.zip.sha))*
+* [Sources](https://github.com/crawljax/crawljax/archive/crawljax-2.1.zip)
+* [Changelog](https://github.com/crawljax/crawljax/blob/master/CHANGELOG.md)
 
-### Binary
-
-[List of binaries (zip)](http://code.google.com/p/crawljax/downloads/list)
+[Looking for an older release?](/downloads/all)
 
 ### Maven
 
