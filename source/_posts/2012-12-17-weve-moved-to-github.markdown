@@ -4,6 +4,7 @@ title: "We've moved to GitHub!"
 date: 2012-12-17 12:23
 comments: true
 categories: 
+author: Alex Nederlof
 ---
 Crawljax is alive and kicking again! We've started off by moving the Crawljax project to Github. This makes contributing to the project much easier using Git's decentralized approach and Github's pull requests.
 
