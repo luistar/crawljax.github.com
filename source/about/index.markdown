@@ -6,7 +6,7 @@ comments: false
 sharing: false
 footer: false
 ---
-<img src="images/crawljax-logo.jpg" width="150px" style="float:left;margin:0 10px 0 0;">Crawljax is an open source Java tool for automatically crawling and testing modern web applications.
+<img src="http://crawljax.com/images/crawljax-logo.jpg" width="150px" style="float:left;margin:0 10px 0 0;">Crawljax is an open source Java tool for automatically crawling and testing modern web applications.
 Crawljax can explore any JavaScript-based Ajax web application through an even-driven dynamic crawling engine. It automatically creates a state-flow graph of the dynamic DOM states and the event-based transitions between them. This inferred state-flow graph forms a very powerful vehicle for automating many types of web analysis and testing techniques:
 
 * Test generation 

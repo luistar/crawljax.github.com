@@ -8,19 +8,18 @@ footer: false
 ---
 
 	
-* Ali Mesbah, Arie van Deursen, and Stefan Lenselink (2011). [Crawling Ajax-based Web Applications through Dynamic Analysis of User Interface State Changes](http://www.ece.ubc.ca/~amesbah/docs/tweb-final.pdf). *ACM Transactions on the Web (TWEB).*
-* Ali Mesbah and Engin Bozdag and Arie van Deursen (2008). [Crawling Ajax by Inferring User Interface State Changes](http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2008-022.pdf). *In Proceedings of the 8th International Conference on Web Engineering (ICWE’08), pp. 122-134. IEEE Computer Society. 
+* Ali Mesbah, Arie van Deursen, and Stefan Lenselink (2012). [Crawling Ajax-based Web Applications through Dynamic Analysis of User Interface State Changes](http://www.ece.ubc.ca/~amesbah/docs/tweb-final.pdf). *ACM Transactions on the Web (TWEB).*
 
-### Cite Crawljax as:
+#### You can cite Crawljax as:
 
     @ARTICLE{crawljax:tweb12,
-	  author = {Ali Mesbah and Arie van Deursen and Stefan Lenselink},
+	  author = {Mesbah, Ali and van Deursen, Arie and Lenselink, Stefan},
 	  title = {Crawling {Ajax}-based Web Applications through Dynamic Analysis of User Interface State Changes},
 	  journal = {ACM Transactions on the Web (TWEB)},
 	  year = {2012},
 	  volume = {6},
 	  number = {1},
-	  pages = {3:1--3:30},
+	  pages = {3:1--3:30}
 	}
 
 ## Publications using Crawljax:
