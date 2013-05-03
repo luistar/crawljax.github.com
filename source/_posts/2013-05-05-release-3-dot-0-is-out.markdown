@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Release 3.0 is out"
-date: 2013-03-06 17:14
+date: 2013-05-05 17:14
 comments: true
 categories: [ releases ]
 ---
@@ -13,10 +13,20 @@ Most notable in the new release is the new overview plugin. The plugin shows an 
 
 {% img /images/new-overview-plugin.png  "The new overview plugin" %}
 
-### New Features
+### New commanline interface
+
+Crawljax can now also be downloaded as a runnable jar. Once you download the jar, running Crawljax can simply done using the command:
+
+	java -jar crawljax-cli-version.jar http://your.site.com outputfolder
+	
+Crawljax will Crawl that site with the new Crawl overview plugin enabled. You can run `java -jar crawljax-cli-version.jar` to see a list of possible configurations for the crawl.
+
+The Jar is downloadable from [the central Maven repository](http://search.maven.org/#search%7Cga%7C1%7Ccrawljax).
+
+### Other important updates
 
 * Crawljax is now configured using a configuration builder. You can start of you configuration using `CrawljaxConfiguration.builderFor("http://your.website.com");`.
-* The project has been split up in three versions: *core*, *cli* and *examples*. The Command Line Interface (CLI) module is the simplest way to run Crawljax. You can just download the zip and run Crawljax on any site. The *core* module can be included in any project using Maven to extend Crawljax or to run in programmatically. The *examples* module is the easiest way to try out several configurations of Crawljax in your favorite IDE. Checkout our updated documentation for more details. 
+* The project has been split up in three versions: *core*, *cli* and *examples*. The *cli* modules contains the command line interface. The *core* module can be included in any project as a jar to run Crawljax programmatically. The *examples* module is the easiest way to try out several configurations of Crawljax in your favorite IDE. Checkout our updated documentation for more details. 
 * You can configure the crawler to crawl all found `href` attributes. Even if the elements are not visible because they only show up when the crawler hovers on another element.
 * You can now specify  that the crawler doesn't click any children of a certain element using a short syntax like `dontClickChildrenOf("LI").withId("dontClickMe");`
 
