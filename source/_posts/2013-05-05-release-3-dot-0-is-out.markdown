@@ -21,7 +21,7 @@ Crawljax can now also be downloaded as a runnable jar. Once you download the jar
 	
 Crawljax will Crawl that site with the new Crawl overview plugin enabled. You can run `java -jar crawljax-cli-version.jar` to see a list of possible configurations for the crawl.
 
-The Jar is downloadable from [the central Maven repository](http://search.maven.org/#search%7Cga%7C1%7Ccrawljax).
+The zip is downloadable from [the central Maven repository](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.crawljax%22%20AND%20a%3A%22crawljax-cli%22).
 
 ### Other important updates
 
@@ -29,5 +29,6 @@ The Jar is downloadable from [the central Maven repository](http://search.maven.
 * The project has been split up in three versions: *core*, *cli* and *examples*. The *cli* modules contains the command line interface. The *core* module can be included in any project as a jar to run Crawljax programmatically. The *examples* module is the easiest way to try out several configurations of Crawljax in your favorite IDE. Checkout our updated documentation for more details. 
 * You can configure the crawler to crawl all found `href` attributes. Even if the elements are not visible because they only show up when the crawler hovers on another element.
 * You can now specify  that the crawler doesn't click any children of a certain element using a short syntax like `dontClickChildrenOf("LI").withId("dontClickMe");`
+* Major performance and stability improvements
 
 You can [view all closed issues](https://github.com/crawljax/crawljax/issues?milestone=3&page=1&state=closed) or [the full diff](https://github.com/crawljax/crawljax/compare/crawljax-2.2...crawljax-3.0) on Github.
