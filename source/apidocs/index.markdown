@@ -7,7 +7,7 @@ footer: false
 ---
 
 #### Available API docs:
-* [Core](apidocs/core/)
-* [Cli](apidocs/cli/)
-* [Crawl overview plugin](apidocs/plugins/crawloverview-plugin/)
-* [Examples](apidocs/examples/)
+* [Core](/apidocs/core/)
+* [Cli](/apidocs/cli/)
+* [Crawl overview plugin](/apidocs/plugins/crawloverview-plugin/)
+* [Examples](/apidocs/examples/)
