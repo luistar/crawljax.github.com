@@ -1,51 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://crawljax.github.io/blog/2012/12/17/weve-moved-to-github/</loc>
+        <loc>http://crawljax.github.com/blog/2012/12/17/weve-moved-to-github/</loc>
         <lastmod>2013-05-03T05:42:48-07:00</lastmod>
     </url>
     <url>
-        <loc>http://crawljax.github.io/blog/2012/12/17/release-2-dot-1-is-out/</loc>
+        <loc>http://crawljax.github.com/blog/2012/12/17/release-2-dot-1-is-out/</loc>
         <lastmod>2013-05-03T05:42:48-07:00</lastmod>
     </url>
     <url>
-        <loc>http://crawljax.github.io/blog/2012/12/31/release-2-dot-2-is-out/</loc>
+        <loc>http://crawljax.github.com/blog/2012/12/31/release-2-dot-2-is-out/</loc>
         <lastmod>2013-05-03T05:42:48-07:00</lastmod>
     </url>
     <url>
-        <loc>http://crawljax.github.io/blog/2013/05/05/release-3-dot-0-is-out/</loc>
+        <loc>http://crawljax.github.com/blog/2013/05/05/release-3-dot-0-is-out/</loc>
         <lastmod>2013-05-22T11:10:53-07:00</lastmod>
     </url>
     <url>
-        <loc>http://crawljax.github.io/about/</loc>
+        <loc>http://crawljax.github.com/about/</loc>
         <lastmod>2013-05-03T05:42:48-07:00</lastmod>
     </url>
     <url>
-        <loc>http://crawljax.github.io/apidocs/</loc>
-        <lastmod>2013-05-16T00:37:50-07:00</lastmod>
+        <loc>http://crawljax.github.com/apidocs/</loc>
+        <lastmod>2013-05-22T15:54:19-07:00</lastmod>
     </url>
     <url>
-        <loc>http://crawljax.github.io/blog/archives/</loc>
+        <loc>http://crawljax.github.com/blog/archives/</loc>
         <lastmod>2013-05-22T11:10:53-07:00</lastmod>
     </url>
     <url>
-        <loc>http://crawljax.github.io/contributors/</loc>
+        <loc>http://crawljax.github.com/contributors/</loc>
         <lastmod>2013-05-03T05:42:48-07:00</lastmod>
     </url>
     <url>
-        <loc>http://crawljax.github.io/downloads/all/</loc>
+        <loc>http://crawljax.github.com/downloads/all/</loc>
         <lastmod>2013-05-03T05:42:48-07:00</lastmod>
     </url>
     <url>
-        <loc>http://crawljax.github.io/downloads/</loc>
+        <loc>http://crawljax.github.com/downloads/</loc>
         <lastmod>2013-05-03T05:42:48-07:00</lastmod>
     </url>
     <url>
-        <loc>http://crawljax.github.io/</loc>
+        <loc>http://crawljax.github.com/</loc>
         <lastmod>2013-05-22T11:10:53-07:00</lastmod>
     </url>
     <url>
-        <loc>http://crawljax.github.io/publications/</loc>
+        <loc>http://crawljax.github.com/publications/</loc>
         <lastmod>2013-05-03T05:42:49-07:00</lastmod>
     </url>
 </urlset>
