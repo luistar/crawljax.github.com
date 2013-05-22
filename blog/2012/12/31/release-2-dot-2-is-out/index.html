@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Release 2.2 is out - Crawljax</title>
+  <meta name="author" content="Crawljax">
+
+  
+  <meta name="description" content="Release 2.2 contains bug fixes and several improvements: Switched to a new Logging framework for better log output. (Issue #73)
+The StateFlowGraph &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://crawljax.github.io/blog/2012/12/31/release-2-dot-2-is-out/">
+  <link href="/images/crawljax-favico.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Crawljax" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-12224196-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Crawljax</a></h1>
+  
+    <h2>Crawling Ajax-based Web Applications</h2>
+  
+</hgroup>
+<a href="https://github.com/crawljax/crawljax"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:crawljax.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/publications">Publications</a></li>
+  <li><a href="/downloads"">Downloads</a></li>
+  <li><a href="https://github.com/crawljax/crawljax/wiki">Documentation</a></li>
+  <li><a href="/contributors">Contributors</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Release 2.2 Is Out</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-31T12:43:00-08:00" pubdate data-updated="true">Dec 31<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Release 2.2 contains bug fixes and several improvements:</p>
+
+<ul>
+<li>Switched to a new Logging framework for better log output. (<a href="https://github.com/crawljax/crawljax/pull/73">Issue #73</a>)</li>
+<li>The StateFlowGraph and other elements are now serializable (<a href="https://github.com/crawljax/crawljax/issues/52">Issue #52</a>, <a href="https://github.com/crawljax/crawljax/issues/53">Issue #53</a>, <a href="https://github.com/crawljax/crawljax/issues/77">Issue #77</a>)</li>
+<li>More HTML elements are predefined for crawling. This can lead to a higher crawl coverage.(<a href="https://github.com/crawljax/crawljax/issues/72">Issue #72</a>)</li>
+</ul>
+
+
+<p>You can find all closed issues <a href="https://github.com/crawljax/crawljax/issues?milestone=2&amp;state=closed">here</a> or look at the full diff <a href="https://github.com/crawljax/crawljax/compare/crawljax-2.1...crawljax-2.2">here</a>.</p>
+
+<p>Crawljax 2.2 is avaiable through <a href="http://search.maven.org/#browse%7C462108398">Maven central</a> and our <a href="/downloads">download section</a>.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Crawljax</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-31T12:43:00-08:00" pubdate data-updated="true">Dec 31<span>st</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/releases/'>releases</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://crawljax.github.io/blog/2012/12/31/release-2-dot-2-is-out/" data-via="crawljax" data-counturl="http://crawljax.github.io/blog/2012/12/31/release-2-dot-2-is-out/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/12/17/release-2-dot-1-is-out/" title="Previous Post: Release 2.1 is out">&laquo; Release 2.1 is out</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/05/05/release-3-dot-0-is-out/" title="Next Post: Release 3.0 is out">Release 3.0 is out &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/05/05/release-3-dot-0-is-out/">Release 3.0 is out</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/31/release-2-dot-2-is-out/">Release 2.2 is out</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/17/release-2-dot-1-is-out/">Release 2.1 is out</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/17/weve-moved-to-github/">We've moved to GitHub!</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>Contact</h1>
+	<p>
+		<a href="http://groups.google.com/group/crawljax">Mailing list</a>
+		<br>
+		<a href="https://github.com/crawljax/crawljax/issues">Issue tracker</a>
+	</p>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/crawljax">@crawljax</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'crawljax',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+<section>
+	<a class="twitter-timeline" href="https://twitter.com/crawljax" data-widget-id="322427528092467200" data-chrome="transparent">Tweets by @crawljax</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Crawljax -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'crawljax';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://crawljax.github.io/blog/2012/12/31/release-2-dot-2-is-out/';
+        var disqus_url = 'http://crawljax.github.io/blog/2012/12/31/release-2-dot-2-is-out/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
