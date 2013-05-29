@@ -7,7 +7,7 @@ footer: false
 ---
 
 #### Version 3.0:
-* [Binaries](/downloads/crawljax-3.0.zip) *([sha checksum](/downloads/crawljax-3.0.zip.sha))*
+* [Binaries](http://search.maven.org/remotecontent?filepath=com/crawljax/crawljax-cli/3.0/crawljax-cli-3.0.zip)
 * [Sources](https://github.com/crawljax/crawljax/archive/crawljax-3.0.zip)
 * [Changelog](https://github.com/crawljax/crawljax/blob/master/CHANGELOG.md)
 
