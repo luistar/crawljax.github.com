@@ -6,9 +6,9 @@ sharing: false
 footer: false
 ---
 
-#### Version 3.0:
-* [Binaries](http://search.maven.org/remotecontent?filepath=com/crawljax/crawljax-cli/3.0/crawljax-cli-3.0.zip)
-* [Sources](https://github.com/crawljax/crawljax/archive/crawljax-3.0.zip)
+#### Version 3.1:
+* [Binaries](http://search.maven.org/remotecontent?filepath=com/crawljax/crawljax-cli/3.1/crawljax-cli-3.1.zip)
+* [Sources](https://github.com/crawljax/crawljax/archive/crawljax-3.1.zip)
 * [Changelog](https://github.com/crawljax/crawljax/blob/master/CHANGELOG.md)
 
 [Looking for an older release?](/downloads/all)
