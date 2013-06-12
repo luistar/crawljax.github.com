@@ -4,7 +4,7 @@
   <title><![CDATA[Category: releases | Crawljax]]></title>
   <link href="http://crawljax.github.com/blog/categories/releases/atom.xml" rel="self"/>
   <link href="http://crawljax.github.com/"/>
-  <updated>2013-05-22T15:54:20-07:00</updated>
+  <updated>2013-06-12T15:22:22+02:00</updated>
   <id>http://crawljax.github.com/</id>
   <author>
     <name><![CDATA[Crawljax]]></name>
@@ -14,9 +14,27 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Release 3.1 is out]]></title>
+    <link href="http://crawljax.github.com/blog/2013/06/12/release-3-dot-1-is-out/"/>
+    <updated>2013-06-12T15:19:00+02:00</updated>
+    <id>http://crawljax.github.com/blog/2013/06/12/release-3-dot-1-is-out</id>
+    <content type="html"><![CDATA[<p>Release 3.1 is out. It&rsquo;s a small update with one API change and several bug fixes:</p>
+
+<ul>
+<li>Added the possibility to stop Crawljax from using the runner or by calling stop from any plugin. <a href="https://github.com/crawljax/crawljax/issues/270">#270</a></li>
+<li>Fixes bug positioning of elements in the crawloverview <a href="https://github.com/crawljax/crawljax/pull/273">#237</a></li>
+<li>Fixed HashCode/Equals bug in Conditions <a href="https://github.com/crawljax/crawljax/pull/276">#276</a></li>
+<li>Fixes bug where edges would disappear from the StateFlowGraph <a href="https://github.com/crawljax/crawljax/pull/272">#272</a></li>
+<li>Updated to the new version of Selenium</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Release 3.0 is out]]></title>
     <link href="http://crawljax.github.com/blog/2013/05/05/release-3-dot-0-is-out/"/>
-    <updated>2013-05-05T17:14:00-07:00</updated>
+    <updated>2013-05-05T17:14:00+02:00</updated>
     <id>http://crawljax.github.com/blog/2013/05/05/release-3-dot-0-is-out</id>
     <content type="html"><![CDATA[<p>Release 3.0 is out. This is a major release, which contains many key updates and renovations. The release contains <a href="https://github.com/crawljax/crawljax/issues?milestone=3&amp;state=closed">several bug fixes and loads of enhancements</a>. The code base has been split up into modules, the API has changed a little, and the crawl overview plugin has been completely renovated.</p>
 
@@ -55,7 +73,7 @@
   <entry>
     <title type="html"><![CDATA[Release 2.2 is out]]></title>
     <link href="http://crawljax.github.com/blog/2012/12/31/release-2-dot-2-is-out/"/>
-    <updated>2012-12-31T12:43:00-08:00</updated>
+    <updated>2012-12-31T12:43:00+01:00</updated>
     <id>http://crawljax.github.com/blog/2012/12/31/release-2-dot-2-is-out</id>
     <content type="html"><![CDATA[<p>Release 2.2 contains bug fixes and several improvements:</p>
 
@@ -75,7 +93,7 @@
   <entry>
     <title type="html"><![CDATA[Release 2.1 is out]]></title>
     <link href="http://crawljax.github.com/blog/2012/12/17/release-2-dot-1-is-out/"/>
-    <updated>2012-12-17T13:05:00-08:00</updated>
+    <updated>2012-12-17T13:05:00+01:00</updated>
     <id>http://crawljax.github.com/blog/2012/12/17/release-2-dot-1-is-out</id>
     <content type="html"><![CDATA[<p>Release 2.1 contains bug fixes and browser updates. You can find the solved issues <a href="https://github.com/crawljax/crawljax/issues?milestone=1&amp;state=closed">here</a> or look at the full diff <a href="https://github.com/crawljax/crawljax/compare/crawljax-2.0...crawljax-2.1">here</a>.</p>
 
