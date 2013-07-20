@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Crawljax]]></title>
-  <link href="http://crawljax.github.com/atom.xml" rel="self"/>
-  <link href="http://crawljax.github.com/"/>
-  <updated>2013-07-20T13:41:11+02:00</updated>
-  <id>http://crawljax.github.com/</id>
+  <link href="http://crawljax.github.io/atom.xml" rel="self"/>
+  <link href="http://crawljax.github.io/"/>
+  <updated>2013-07-20T13:57:57+02:00</updated>
+  <id>http://crawljax.github.io/</id>
   <author>
     <name><![CDATA[Crawljax]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Release 3.2 is out]]></title>
-    <link href="http://crawljax.github.com/blog/2013/07/20/release-3-dot-2-is-out/"/>
+    <link href="http://crawljax.github.io/blog/2013/07/20/release-3-dot-2-is-out/"/>
     <updated>2013-07-20T13:35:00+02:00</updated>
-    <id>http://crawljax.github.com/blog/2013/07/20/release-3-dot-2-is-out</id>
+    <id>http://crawljax.github.io/blog/2013/07/20/release-3-dot-2-is-out</id>
     <content type="html"><![CDATA[<p>Release 3.2 is out. It&rsquo;s a small update with one API change and several bug fixes:</p>
 
 <h3>Metrics <a href="https://github.com/crawljax/crawljax/issues/314">#314</a></h3>
@@ -78,9 +78,9 @@
   
   <entry>
     <title type="html"><![CDATA[Release 3.1 is out]]></title>
-    <link href="http://crawljax.github.com/blog/2013/06/12/release-3-dot-1-is-out/"/>
+    <link href="http://crawljax.github.io/blog/2013/06/12/release-3-dot-1-is-out/"/>
     <updated>2013-06-12T15:19:00+02:00</updated>
-    <id>http://crawljax.github.com/blog/2013/06/12/release-3-dot-1-is-out</id>
+    <id>http://crawljax.github.io/blog/2013/06/12/release-3-dot-1-is-out</id>
     <content type="html"><![CDATA[<p>Release 3.1 is out. It&rsquo;s a small update with one API change and several bug fixes:</p>
 
 <ul>
@@ -96,16 +96,16 @@
   
   <entry>
     <title type="html"><![CDATA[Release 3.0 is out]]></title>
-    <link href="http://crawljax.github.com/blog/2013/05/05/release-3-dot-0-is-out/"/>
+    <link href="http://crawljax.github.io/blog/2013/05/05/release-3-dot-0-is-out/"/>
     <updated>2013-05-05T17:14:00+02:00</updated>
-    <id>http://crawljax.github.com/blog/2013/05/05/release-3-dot-0-is-out</id>
+    <id>http://crawljax.github.io/blog/2013/05/05/release-3-dot-0-is-out</id>
     <content type="html"><![CDATA[<p>Release 3.0 is out. This is a major release, which contains many key updates and renovations. The release contains <a href="https://github.com/crawljax/crawljax/issues?milestone=3&amp;state=closed">several bug fixes and loads of enhancements</a>. The code base has been split up into modules, the API has changed a little, and the crawl overview plugin has been completely renovated.</p>
 
 <h3>New overview plug-in</h3>
 
 <p>Most notable in the new release is the new overview plugin. The plugin shows an interactive state graph of the crawl and some statistics. Make sure you check out <a href="http://crawls.crawljax.com">a demo</a> or try one of our <a href="https://github.com/crawljax/crawljax/tree/master/examples">examples</a> yourself.</p>
 
-<p><img src="http://crawljax.github.com/images/new-overview-plugin.png" title="&#34;The new overview plugin&#34;" alt="&#34;The new overview plugin&#34;"></p>
+<p><img src="http://crawljax.github.io/images/new-overview-plugin.png" title="&#34;The new overview plugin&#34;" alt="&#34;The new overview plugin&#34;"></p>
 
 <h3>New command line interface</h3>
 
@@ -135,9 +135,9 @@
   
   <entry>
     <title type="html"><![CDATA[Release 2.2 is out]]></title>
-    <link href="http://crawljax.github.com/blog/2012/12/31/release-2-dot-2-is-out/"/>
+    <link href="http://crawljax.github.io/blog/2012/12/31/release-2-dot-2-is-out/"/>
     <updated>2012-12-31T12:43:00+01:00</updated>
-    <id>http://crawljax.github.com/blog/2012/12/31/release-2-dot-2-is-out</id>
+    <id>http://crawljax.github.io/blog/2012/12/31/release-2-dot-2-is-out</id>
     <content type="html"><![CDATA[<p>Release 2.2 contains bug fixes and several improvements:</p>
 
 <ul>
@@ -149,15 +149,15 @@
 
 <p>You can find all closed issues <a href="https://github.com/crawljax/crawljax/issues?milestone=2&amp;state=closed">here</a> or look at the full diff <a href="https://github.com/crawljax/crawljax/compare/crawljax-2.1...crawljax-2.2">here</a>.</p>
 
-<p>Crawljax 2.2 is avaiable through <a href="http://search.maven.org/#browse%7C462108398">Maven central</a> and our <a href="http://crawljax.github.com/downloads">download section</a>.</p>
+<p>Crawljax 2.2 is avaiable through <a href="http://search.maven.org/#browse%7C462108398">Maven central</a> and our <a href="http://crawljax.github.io/downloads">download section</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Release 2.1 is out]]></title>
-    <link href="http://crawljax.github.com/blog/2012/12/17/release-2-dot-1-is-out/"/>
+    <link href="http://crawljax.github.io/blog/2012/12/17/release-2-dot-1-is-out/"/>
     <updated>2012-12-17T13:05:00+01:00</updated>
-    <id>http://crawljax.github.com/blog/2012/12/17/release-2-dot-1-is-out</id>
+    <id>http://crawljax.github.io/blog/2012/12/17/release-2-dot-1-is-out</id>
     <content type="html"><![CDATA[<p>Release 2.1 contains bug fixes and browser updates. You can find the solved issues <a href="https://github.com/crawljax/crawljax/issues?milestone=1&amp;state=closed">here</a> or look at the full diff <a href="https://github.com/crawljax/crawljax/compare/crawljax-2.0...crawljax-2.1">here</a>.</p>
 
 <p>We&rsquo;re already working on <a href="https://github.com/crawljax/crawljax/issues?milestone=2">release 2.2</a>. If you need anything fixed in Crawljax, make sure you <a href="https://github.com/crawljax/crawljax/issues">file your issue</a>!</p>
@@ -166,9 +166,9 @@
   
   <entry>
     <title type="html"><![CDATA[We've moved to GitHub!]]></title>
-    <link href="http://crawljax.github.com/blog/2012/12/17/weve-moved-to-github/"/>
+    <link href="http://crawljax.github.io/blog/2012/12/17/weve-moved-to-github/"/>
     <updated>2012-12-17T12:23:00+01:00</updated>
-    <id>http://crawljax.github.com/blog/2012/12/17/weve-moved-to-github</id>
+    <id>http://crawljax.github.io/blog/2012/12/17/weve-moved-to-github</id>
     <content type="html"><![CDATA[<p>Crawljax is alive and kicking again! We&rsquo;ve started off by moving the Crawljax project to Github. This makes contributing to the project much easier using Git&rsquo;s decentralized approach and Github&rsquo;s pull requests.</p>
 
 <p>All issues from Goole Code have been imported into <a href="https://github.com/crawljax/crawljax/issues">Github&rsquo;s issue tracker</a>, and <a href="https://github.com/crawljax/crawljax/wiki">the wiki has moved as well</a>. With this new website we will keep everyone informed about Crawljax&rsquo;s development.</p>
