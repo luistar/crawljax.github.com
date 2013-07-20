@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: releases - Crawljax</title>
+  <title>Release 3.2 is out - Crawljax</title>
   <meta name="author" content="Crawljax">
 
   
-  <meta name="description" content="Category: releases">
+  <meta name="description" content="Release 3.2 is out. It&rsquo;s a small update with one API change and several bug fixes: Metrics #314 Implements statistics for Crawljax using &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://crawljax.github.comblog/categories/releases/">
+  <link rel="canonical" href="http://crawljax.github.com/blog/2013/07/20/release-3-dot-2-is-out/">
   <link href="/images/crawljax-favico.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -80,95 +80,145 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Releases</h1>
+    
+      <h1 class="entry-title">Release 3.2 Is Out</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-20T13:35:00+02:00" pubdate data-updated="true">Jul 20<span>th</span>, 2013</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Release 3.2 is out. It&rsquo;s a small update with one API change and several bug fixes:</p>
 
-  
-  <h2>2013</h2>
+<h3>Metrics <a href="https://github.com/crawljax/crawljax/issues/314">#314</a></h3>
 
-<article>
-  
-<h1><a href="/blog/2013/07/20/release-3-dot-2-is-out/">Release 3.2 is out</a></h1>
-<time datetime="2013-07-20T13:35:00+02:00" pubdate><span class='month'>Jul</span> <span class='day'>20</span> <span class='year'>2013</span></time>
+<p>Implements statistics for Crawljax using <a href="http://metrics.codahale.com/manual/core/#man-core-reporters-slf4j">Codehale&rsquo;s metrics</a>.</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/releases/'>releases</a></span>
-</footer>
+<p>We have pre-loaded some metrics in core and you can extend the functionality yourself. We have created <a href="https://github.com/crawljax/crawljax/blob/master/examples/src/main/java/com/crawljax/examples/MetricPluginExample.java">an example</a> that shows how you can print the already inserted metrics and add one of your own.</p>
 
+<p>The default counters that are included right now are:</p>
 
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2013/06/12/release-3-dot-1-is-out/">Release 3.1 is out</a></h1>
-<time datetime="2013-06-12T15:19:00+02:00" pubdate><span class='month'>Jun</span> <span class='day'>12</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/releases/'>releases</a></span>
-</footer>
+<ul>
+<li>Crawler lost count</li>
+<li>Unfired actions count</li>
+<li>Invocations per plugin count.</li>
+</ul>
 
 
-</article>
+<p>The output of the example is the standard counters plus a histogram of the DOM-size:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlevents.crawler_lost, count=0
+</span><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlevents.unfired_actions, count=0
+</span><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.DomChangeNotifierPlugin.invocations, count=19
+</span><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnBrowserCreatedPlugin.invocations, count=1
+</span><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnFireEventFailedPlugin.invocations, count=0
+</span><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnInvariantViolationPlugin.invocations, count=0
+</span><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnNewStatePlugin.invocations, count=17
+</span><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnRevisitStatePlugin.invocations, count=1
+</span><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnUrlLoadPlugin.invocations, count=15
+</span><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.PostCrawlingPlugin.invocations, count=1
+</span><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.PreCrawlingPlugin.invocations, count=0
+</span><span class='line'>[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.PreStateCrawlingPlugin.invocations, count=15
+</span><span class='line'>[main] INFO  - type=HISTOGRAM, name=com.crawljax.examples.MetricPluginExample.domsize, count=17, min=2, max=5, mean=3.4705882352941178, stddev=0.7998161553463027, median=4.0, p75=4.0, p95=5.0, p98=5.0, p99=5.0, p999=5.0</span></code></pre></td></tr></table></div></figure>
 
 
+<h3>Further more:</h3>
 
-<article>
-  
-<h1><a href="/blog/2013/05/05/release-3-dot-0-is-out/">Release 3.0 is out</a></h1>
-<time datetime="2013-05-05T17:14:00+02:00" pubdate><span class='month'>May</span> <span class='day'>05</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/releases/'>releases</a></span>
-</footer>
-
-
-</article>
-
-
-
-  
-  <h2>2012</h2>
-
-<article>
-  
-<h1><a href="/blog/2012/12/31/release-2-dot-2-is-out/">Release 2.2 is out</a></h1>
-<time datetime="2012-12-31T12:43:00+01:00" pubdate><span class='month'>Dec</span> <span class='day'>31</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/releases/'>releases</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2012/12/17/release-2-dot-1-is-out/">Release 2.1 is out</a></h1>
-<time datetime="2012-12-17T13:05:00+01:00" pubdate><span class='month'>Dec</span> <span class='day'>17</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/releases/'>releases</a></span>
-</footer>
-
-
-</article>
+<ul>
+<li>Crawl configuration now has an option to set the output folder <a href="https://github.com/crawljax/crawljax/issues/316">#316</a>. This is useful for plugins that require an output folder.</li>
+<li><code>Browser.getDom()</code> is deprecated. You can now choose between <code>getStrippedDom</code> and <code>getUnstrippedDom()</code> <a href="https://github.com/crawljax/crawljax/issues/305">#305</a>.</li>
+<li><strong>API Change</strong>: Proxy plugin has been removed. It didn&rsquo;t work in 3.1 and 3.0 and is now replaced by the <code>PreCrawlPlugin</code>. <a href="https://github.com/crawljax/crawljax/issues/286">#286</a></li>
+</ul>
 
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Crawljax</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-20T13:35:00+02:00" pubdate data-updated="true">Jul 20<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/releases/'>releases</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://crawljax.github.com/blog/2013/07/20/release-3-dot-2-is-out/" data-via="crawljax" data-counturl="http://crawljax.github.com/blog/2013/07/20/release-3-dot-2-is-out/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/06/12/release-3-dot-1-is-out/" title="Previous Post: Release 3.1 is out">&laquo; Release 3.1 is out</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -263,7 +313,10 @@
       var disqus_shortname = 'crawljax';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://crawljax.github.com/blog/2013/07/20/release-3-dot-2-is-out/';
+        var disqus_url = 'http://crawljax.github.com/blog/2013/07/20/release-3-dot-2-is-out/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

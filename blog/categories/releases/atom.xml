@@ -4,7 +4,7 @@
   <title><![CDATA[Category: releases | Crawljax]]></title>
   <link href="http://crawljax.github.com/blog/categories/releases/atom.xml" rel="self"/>
   <link href="http://crawljax.github.com/"/>
-  <updated>2013-06-12T15:28:06+02:00</updated>
+  <updated>2013-07-20T13:41:11+02:00</updated>
   <id>http://crawljax.github.com/</id>
   <author>
     <name><![CDATA[Crawljax]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Release 3.2 is out]]></title>
+    <link href="http://crawljax.github.com/blog/2013/07/20/release-3-dot-2-is-out/"/>
+    <updated>2013-07-20T13:35:00+02:00</updated>
+    <id>http://crawljax.github.com/blog/2013/07/20/release-3-dot-2-is-out</id>
+    <content type="html"><![CDATA[<p>Release 3.2 is out. It&rsquo;s a small update with one API change and several bug fixes:</p>
+
+<h3>Metrics <a href="https://github.com/crawljax/crawljax/issues/314">#314</a></h3>
+
+<p>Implements statistics for Crawljax using <a href="http://metrics.codahale.com/manual/core/#man-core-reporters-slf4j">Codehale&rsquo;s metrics</a>.</p>
+
+<p>We have pre-loaded some metrics in core and you can extend the functionality yourself. We have created <a href="https://github.com/crawljax/crawljax/blob/master/examples/src/main/java/com/crawljax/examples/MetricPluginExample.java">an example</a> that shows how you can print the already inserted metrics and add one of your own.</p>
+
+<p>The default counters that are included right now are:</p>
+
+<ul>
+<li>Crawler lost count</li>
+<li>Unfired actions count</li>
+<li>Invocations per plugin count.</li>
+</ul>
+
+
+<p>The output of the example is the standard counters plus a histogram of the DOM-size:
+<code>
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlevents.crawler_lost, count=0
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlevents.unfired_actions, count=0
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.DomChangeNotifierPlugin.invocations, count=19
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnBrowserCreatedPlugin.invocations, count=1
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnFireEventFailedPlugin.invocations, count=0
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnInvariantViolationPlugin.invocations, count=0
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnNewStatePlugin.invocations, count=17
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnRevisitStatePlugin.invocations, count=1
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.OnUrlLoadPlugin.invocations, count=15
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.PostCrawlingPlugin.invocations, count=1
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.PreCrawlingPlugin.invocations, count=0
+[main] INFO  - type=COUNTER, name=com.crawljax.crawlplugins.PreStateCrawlingPlugin.invocations, count=15
+[main] INFO  - type=HISTOGRAM, name=com.crawljax.examples.MetricPluginExample.domsize, count=17, min=2, max=5, mean=3.4705882352941178, stddev=0.7998161553463027, median=4.0, p75=4.0, p95=5.0, p98=5.0, p99=5.0, p999=5.0
+</code></p>
+
+<h3>Further more:</h3>
+
+<ul>
+<li>Crawl configuration now has an option to set the output folder <a href="https://github.com/crawljax/crawljax/issues/316">#316</a>. This is useful for plugins that require an output folder.</li>
+<li><code>Browser.getDom()</code> is deprecated. You can now choose between <code>getStrippedDom</code> and <code>getUnstrippedDom()</code> <a href="https://github.com/crawljax/crawljax/issues/305">#305</a>.</li>
+<li><strong>API Change</strong>: Proxy plugin has been removed. It didn&rsquo;t work in 3.1 and 3.0 and is now replaced by the <code>PreCrawlPlugin</code>. <a href="https://github.com/crawljax/crawljax/issues/286">#286</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Release 3.1 is out]]></title>
