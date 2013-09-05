@@ -4,7 +4,7 @@
   <title><![CDATA[Category: releases | Crawljax]]></title>
   <link href="http://crawljax.github.io/blog/categories/releases/atom.xml" rel="self"/>
   <link href="http://crawljax.github.io/"/>
-  <updated>2013-07-20T13:57:57+02:00</updated>
+  <updated>2013-09-05T14:24:50+02:00</updated>
   <id>http://crawljax.github.io/</id>
   <author>
     <name><![CDATA[Crawljax]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Release 3.3 is out]]></title>
+    <link href="http://crawljax.github.io/blog/2013/09/05/release-3-dot-3-is-out/"/>
+    <updated>2013-09-05T14:22:00+02:00</updated>
+    <id>http://crawljax.github.io/blog/2013/09/05/release-3-dot-3-is-out</id>
+    <content type="html"><![CDATA[<p>In this release Crawljax offers support for Phantom JS (if installed).</p>
+
+<p>Other fixes include:</p>
+
+<ul>
+<li>External URLs are not opened by default #328</li>
+<li>Updated Selenium</li>
+</ul>
+
+
+<p>All binaries are available at <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.crawljax%22">Maven Central</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Release 3.2 is out]]></title>
@@ -137,17 +156,6 @@
 <p>You can find all closed issues <a href="https://github.com/crawljax/crawljax/issues?milestone=2&amp;state=closed">here</a> or look at the full diff <a href="https://github.com/crawljax/crawljax/compare/crawljax-2.1...crawljax-2.2">here</a>.</p>
 
 <p>Crawljax 2.2 is avaiable through <a href="http://search.maven.org/#browse%7C462108398">Maven central</a> and our <a href="/downloads">download section</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Release 2.1 is out]]></title>
-    <link href="http://crawljax.github.io/blog/2012/12/17/release-2-dot-1-is-out/"/>
-    <updated>2012-12-17T13:05:00+01:00</updated>
-    <id>http://crawljax.github.io/blog/2012/12/17/release-2-dot-1-is-out</id>
-    <content type="html"><![CDATA[<p>Release 2.1 contains bug fixes and browser updates. You can find the solved issues <a href="https://github.com/crawljax/crawljax/issues?milestone=1&amp;state=closed">here</a> or look at the full diff <a href="https://github.com/crawljax/crawljax/compare/crawljax-2.0...crawljax-2.1">here</a>.</p>
-
-<p>We&rsquo;re already working on <a href="https://github.com/crawljax/crawljax/issues?milestone=2">release 2.2</a>. If you need anything fixed in Crawljax, make sure you <a href="https://github.com/crawljax/crawljax/issues">file your issue</a>!</p>
 ]]></content>
   </entry>
   
