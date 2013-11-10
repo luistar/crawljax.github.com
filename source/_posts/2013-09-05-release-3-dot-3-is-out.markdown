@@ -12,4 +12,4 @@ Other fixes include:
 * External URLs are not opened by default #328
 * Updated Selenium
 
-All binaries are available at [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.crawljax%22)
+All binaries are available at [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.crawljax%22) and [GitHub](https://github.com/crawljax/crawljax/releases)
