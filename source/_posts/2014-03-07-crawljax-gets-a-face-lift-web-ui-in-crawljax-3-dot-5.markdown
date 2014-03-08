@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Crawljax gets a face lift. Web UI in Crawljax 3.5"
+title: "Crawljax gets a face lift. Web UI in 3.5"
 date: 2014-03-07 11:36
 comments: true
 categories: [ features ]
 ---
-Latest feature that will be available with Crawljax 3.5 is a Web front end for Crawljax. It supports all the major functionality of crawljax such as adding/editing crawl configurations, installing plugins, viewing crawl logs in real time and displaying plugin output. This is implemented using [the common java web application stack](http://blog.palominolabs.com/2011/08/15/a-simple-java-web-stack-with-guice-jetty-jersey-and-jackson/) and [ember.js](http://emberjs.com/) MVC framework. Kudos to the developers, [@jeremyhewett](https://github.com/jeremyhewett) and [@ryansolid](https://github.com/ryansolid).
+We just released Crawljax 3.5 and with it comes a web interface for Crawljax. It supports all the major functionality of crawljax such as adding/editing crawl configurations, installing plugins, viewing crawl logs in real time and displaying plugin output. Kudos to the developers, [@jeremyhewett](https://github.com/jeremyhewett) and [@ryansolid](https://github.com/ryansolid).
 To run it, simply unzip the web distribution archive and run the command `java -jar crawljax-web-3.5-SNAPSHOT.jar`. You can customize the port and output directory using `-p` and `-o` arguments. Here are some screen-shots of the web interface in action. More usage tutorials will follow.
 
 {% img /images/webui1.jpg  "Crawljax Web UI Home" %}
@@ -22,3 +22,11 @@ Crawl status log with real-time updates
 
 {% img /images/webui5.jpg  "Crawl Overview Output" %}
 Output of the Crawl Overview plugin
+
+Also in release 3.5:
+
+* Deprecated the malfunctioning DomChangeNotifierPlugin. Introuced StateVertexFactoryl. [#347](https://github.com/crawljax/crawljax/issues/347)
+* Better PhantomJS support. Tests run on PhantomJS by default.
+* Switched from URL's to URI's for better performance. [#322](https://github.com/crawljax/crawljax/issues/322)
+
+[You can download the release from our GitHub project site.](https://github.com/crawljax/crawljax/releases)
