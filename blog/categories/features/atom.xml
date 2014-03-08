@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: features | Crawljax]]></title>
+  <link href="http://crawljax.github.io/blog/categories/features/atom.xml" rel="self"/>
+  <link href="http://crawljax.github.io/"/>
+  <updated>2014-03-08T12:30:07+01:00</updated>
+  <id>http://crawljax.github.io/</id>
+  <author>
+    <name><![CDATA[Crawljax]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Crawljax gets a face lift. Web UI in 3.5]]></title>
+    <link href="http://crawljax.github.io/blog/2014/03/07/crawljax-gets-a-face-lift-web-ui-in-crawljax-3-dot-5/"/>
+    <updated>2014-03-07T11:36:00+01:00</updated>
+    <id>http://crawljax.github.io/blog/2014/03/07/crawljax-gets-a-face-lift-web-ui-in-crawljax-3-dot-5</id>
+    <content type="html"><![CDATA[<p>We just released Crawljax 3.5 and with it comes a web interface for Crawljax. It supports all the major functionality of crawljax such as adding/editing crawl configurations, installing plugins, viewing crawl logs in real time and displaying plugin output. Kudos to the developers, <a href="https://github.com/jeremyhewett">@jeremyhewett</a> and <a href="https://github.com/ryansolid">@ryansolid</a>.
+To run it, simply unzip the web distribution archive and run the command <code>java -jar crawljax-web-3.5-SNAPSHOT.jar</code>. You can customize the port and output directory using <code>-p</code> and <code>-o</code> arguments. Here are some screen-shots of the web interface in action. More usage tutorials will follow.</p>
+
+<p><img src="/images/webui1.jpg" title="&ldquo;Crawljax Web UI Home&rdquo;" >
+Crawljax Web UI Home &ndash; You can start by adding a &lsquo;New Configuration&rsquo; as shown</p>
+
+<p><img src="/images/webui2.jpg" title="&ldquo;Edit Configuration Page&rdquo;" >
+&lsquo;Edit Configuration&rsquo; Page</p>
+
+<p><img src="/images/webui3.jpg" title="&ldquo;Add Plugin Page&rdquo;" >
+&lsquo;Add Plugin&rsquo; Page</p>
+
+<p><img src="/images/webui4.jpg" title="&ldquo;Crawl Status Log&rdquo;" >
+Crawl status log with real-time updates</p>
+
+<p><img src="/images/webui5.jpg" title="&ldquo;Crawl Overview Output&rdquo;" >
+Output of the Crawl Overview plugin</p>
+
+<p>Also in release 3.5:</p>
+
+<ul>
+<li>Deprecated the malfunctioning DomChangeNotifierPlugin. Introuced StateVertexFactoryl. <a href="https://github.com/crawljax/crawljax/issues/347">#347</a></li>
+<li>Better PhantomJS support. Tests run on PhantomJS by default.</li>
+<li>Switched from URL&rsquo;s to URI&rsquo;s for better performance. <a href="https://github.com/crawljax/crawljax/issues/322">#322</a></li>
+</ul>
+
+
+<p><a href="https://github.com/crawljax/crawljax/releases">You can download the release from our GitHub project site.</a></p>
+]]></content>
+  </entry>
+  
+</feed>

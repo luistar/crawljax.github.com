@@ -9,8 +9,7 @@
   <meta name="author" content="Crawljax">
 
   
-  <meta name="description" content="In this release Crawljax offers support for Phantom JS (if installed). Other fixes include: External URLs are not opened by default #328
-Updated &hellip;">
+  <meta name="description" content="We just released Crawljax 3.5 and with it comes a web interface for Crawljax. It supports all the major functionality of crawljax such as adding/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -88,6 +87,114 @@ Updated &hellip;">
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2014/03/07/crawljax-gets-a-face-lift-web-ui-in-crawljax-3-dot-5/">Crawljax Gets a Face Lift. Web UI in 3.5</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-07T11:36:00+01:00" pubdate data-updated="true">Mar 7<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>We just released Crawljax 3.5 and with it comes a web interface for Crawljax. It supports all the major functionality of crawljax such as adding/editing crawl configurations, installing plugins, viewing crawl logs in real time and displaying plugin output. Kudos to the developers, <a href="https://github.com/jeremyhewett">@jeremyhewett</a> and <a href="https://github.com/ryansolid">@ryansolid</a>.
+To run it, simply unzip the web distribution archive and run the command <code>java -jar crawljax-web-3.5-SNAPSHOT.jar</code>. You can customize the port and output directory using <code>-p</code> and <code>-o</code> arguments. Here are some screen-shots of the web interface in action. More usage tutorials will follow.</p>
+
+<p><img src="/images/webui1.jpg" title="&#34;Crawljax Web UI Home&#34;" alt="&#34;Crawljax Web UI Home&#34;">
+Crawljax Web UI Home &ndash; You can start by adding a &lsquo;New Configuration&rsquo; as shown</p>
+
+<p><img src="/images/webui2.jpg" title="&#34;Edit Configuration Page&#34;" alt="&#34;Edit Configuration Page&#34;">
+&lsquo;Edit Configuration&rsquo; Page</p>
+
+<p><img src="/images/webui3.jpg" title="&#34;Add Plugin Page&#34;" alt="&#34;Add Plugin Page&#34;">
+&lsquo;Add Plugin&rsquo; Page</p>
+
+<p><img src="/images/webui4.jpg" title="&#34;Crawl Status Log&#34;" alt="&#34;Crawl Status Log&#34;">
+Crawl status log with real-time updates</p>
+
+<p><img src="/images/webui5.jpg" title="&#34;Crawl Overview Output&#34;" alt="&#34;Crawl Overview Output&#34;">
+Output of the Crawl Overview plugin</p>
+
+<p>Also in release 3.5:</p>
+
+<ul>
+<li>Deprecated the malfunctioning DomChangeNotifierPlugin. Introuced StateVertexFactoryl. <a href="https://github.com/crawljax/crawljax/issues/347">#347</a></li>
+<li>Better PhantomJS support. Tests run on PhantomJS by default.</li>
+<li>Switched from URL&rsquo;s to URI&rsquo;s for better performance. <a href="https://github.com/crawljax/crawljax/issues/322">#322</a></li>
+</ul>
+
+
+<p><a href="https://github.com/crawljax/crawljax/releases">You can download the release from our GitHub project site.</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/11/10/release-3-dot-4-is-out/">Release 3.4 Is Out</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-11-10T09:40:00+01:00" pubdate data-updated="true">Nov 10<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>In this release:</p>
+
+<ul>
+<li>Crawljax doesn&rsquo;t accidentally go to other URLs anymore during a Crawl. <a href="https://github.com/crawljax/crawljax/issues/339">#339</a></li>
+<li><code>StateVertexImpl.getUsedEventables()</code> Always returned an empty list <a href="https://github.com/crawljax/crawljax/issues/350">#350</a></li>
+<li>Fixed some Findbugs errors (thanks to <a href="https://github.com/keheliya">@keheliya</a>)</li>
+</ul>
+
+
+<p>All binaries are available at <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.crawljax%22">Maven Central</a> and <a href="https://github.com/crawljax/crawljax/releases">GitHub</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2013/09/05/release-3-dot-3-is-out/">Release 3.3 Is Out</a></h1>
     
     
@@ -121,7 +228,7 @@ Updated &hellip;">
 </ul>
 
 
-<p>All binaries are available at <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.crawljax%22">Maven Central</a></p>
+<p>All binaries are available at <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.crawljax%22">Maven Central</a> and <a href="https://github.com/crawljax/crawljax/releases">GitHub</a></p>
 </div>
   
   
@@ -470,6 +577,14 @@ Updated &hellip;">
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/03/07/crawljax-gets-a-face-lift-web-ui-in-crawljax-3-dot-5/">Crawljax gets a face lift. Web UI in 3.5</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/10/release-3-dot-4-is-out/">Release 3.4 is out</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/09/05/release-3-dot-3-is-out/">Release 3.3 is out</a>
       </li>
     
@@ -479,14 +594,6 @@ Updated &hellip;">
     
       <li class="post">
         <a href="/blog/2013/06/12/release-3-dot-1-is-out/">Release 3.1 is out</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/05/05/release-3-dot-0-is-out/">Release 3.0 is out</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/12/31/release-2-dot-2-is-out/">Release 2.2 is out</a>
       </li>
     
   </ul>
@@ -543,7 +650,7 @@ Updated &hellip;">
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Crawljax -
+  Copyright &copy; 2014 - Crawljax -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
