@@ -8,9 +8,12 @@ com.crawljax.core
 com.crawljax.core.configuration
 com.crawljax.core.exception
 com.crawljax.core.plugin
+com.crawljax.core.plugin.descriptor
+com.crawljax.core.plugin.descriptor.jaxb.generated
 com.crawljax.core.state
 com.crawljax.di
 com.crawljax.forms
+com.crawljax.metrics
 com.crawljax.oraclecomparator
 com.crawljax.oraclecomparator.comparators
 com.crawljax.util

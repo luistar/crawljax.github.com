@@ -11,3 +11,5 @@ footer: false
 * [Cli](/apidocs/cli/)
 * [Crawl overview plugin](/apidocs/plugins/crawloverview-plugin/)
 * [Examples](/apidocs/examples/)
+* [Test utils](/apidocs/test-utils/)
+* [Web](/apidocs/web/)
